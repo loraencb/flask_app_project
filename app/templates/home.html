@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h2>Welcome to the Flask App Homepage!</h2>
+    <p>This application allows you to manage a list of users using a simple and user-friendly interface.</p>
+    <ul>
+        <li><strong>Add User:</strong> Fill out the form to add a new user with name, email, phone, address, and password.</li>
+        <li><strong>View Users:</strong> See all registered users in a styled table format.</li>
+        <li><strong>Edit User:</strong> Update existing user information by clicking the edit button.</li>
+        <li><strong>Delete User:</strong> Remove users from the database with a single click.</li>
+    </ul>
+    <p>The app uses Flask, SQLAlchemy, HTML templates, CSS styling, and includes Pytest tests and Pylint code quality checks.</p>
+{% endblock %}
